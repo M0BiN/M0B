@@ -38,7 +38,7 @@
 < Exp15 > → `^`< Exp > | `λ`</br>
 < Exp16 > → `(`< Exp >`)` | < Literal > </br>
 < Literal > → < Name > | < String > | < Numbers >| < Get > | `true` | `false`</br>
-< AsStatement > → `as` `(` < Exp > `)` `<<`  < S >  `>>` < IfnStatement > <Finaly></br>
+< AsStatement > → `as` `(` < Exp > `)` `<<`  < S >  `>>` < IfnStatement > < Finaly ></br>
 < IfnStatement > → `ifn` `(` < Exp > `)` `<<` < S > `>>` < IfnStatement > | `λ`</br>
 < Finaly > → `finaly` `<<` < S > `>>` | `λ`</br>
 < LoopStatement > → `loop` < Exp > `on` < Name > `by` < StepSign > < Numbers > `<<`  < S >  `>>`</br>
